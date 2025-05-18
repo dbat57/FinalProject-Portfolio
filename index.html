@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>GD107_FinalProject_Part02</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang= "en">
+<header>
+  <h1>Dathan Zack Batuampo</h1>
+  <p>Animator | Student | Designer</p>
+  <button onclick="toggleDarkMode()" id="darkmode-btn">Toggle Dark Mode</button>
+ 
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#" onclick="showPage('home')">Home</a></li>
+    <li><a href="#" onclick="showPage('about')">About</a></li>
+    <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+    <li><a herf="#"
+onclick="showPage('work')">Work</a></li> 
+  </ul>
+</nav>
+
+<section id="home" class="page">
+  <h1>Portfolio</h1>
+  <p>Welcome to my portfolio. I work with small businesses to create unique and distinct designs, logos and small animations for your business. My designs are digitally and hand made and one use colors to speak characters to the design. Let's bring your vision to life.</p>
+   
+<img id= "Art"src="https://raw.githubusercontent.com/dbat57/porfolio-images01/refs/heads/main/Screenshot%202023-08-19%20074419.png" alt="Abstract pic">
+  
+<img id="Design" 
+src="https://raw.githubusercontent.com/dbat57/portfolio-image02/refs/heads/main/Screenshot%202023-08-20%20115030.png" alt="Model sheet">
+ </section>
+  
+<section id="about" class="page" style="display:none;">
+  <h1>About Me</h1>
+  <img id="Aboutme" 
+src="https://raw.githubusercontent.com/dbat57/portfolio-image-profile/refs/heads/main/Screenshot_20230204_072456.png" alt="Me">
+  <p>Dathan Batuampo, currently a student of the College of the Sequoias majoring in Graphic Design do create visual designs, logos, and brand for local or small businesses. While also working on animation for visual communication of your business. Lets work for a brighter future.</p>
+</section>
+
+<section id="contact" class="page" style="display:none;">
+  <h1>Contact Me</h1>
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Your Name" required /><br />
+    <input type="email" id="email" placeholder="Your Email" required /><br />
+    <textarea id="message" placeholder="Your Message" required></textarea><br />
+    <button type="submit">Send Message</button>
+  </form>
+  <p id="formStatus"></p>
+  
+  <p>Have an idea to create, need some help or any kind of questions. Don't hesitate to ask and let's talk</p>
+</section>
+
+<section id="work" class="page" style="display:none;">
+   <h1>Works</h1>
+   <p>A collection of students work, animation, and designs created in 2023/2024/2025 school year.</p>
+  
+  <!-- #10: Horizontal Scroll Event (triggered by vertical scroll) -->
+    <section id="scrollContainer">
+        <div id="scrollContent">
+            <div class="content"><img id= "Abstract"src="https://raw.githubusercontent.com/dbat57/porfolio-images01/refs/heads/main/Screenshot%202023-08-19%20074419.png" alt="Abstract pic"></div>
+          
+            <div class="content"><img id="Character" 
+src="https://raw.githubusercontent.com/dbat57/portfolio-image02/refs/heads/main/Screenshot%202023-08-20%20115030.png" alt="Model sheet"></div>
+          
+            <div class="content"><img id="Model" src="https://raw.githubusercontent.com/dbat57/portfolio-image03/refs/heads/main/Screenshot%202025-04-13%20013353.png" alt="Character Model"></div>
+          
+            <div class="content"><img id="Model" src="https://raw.githubusercontent.com/dbat57/portfolio-image04/refs/heads/main/BatuampoDathan_Vitality.gif" alt="Vitality"></div>
+     
+        </div>
+</section> 
+  
+<footer>
+  <p>&copy; 2025 Dathan Batuampo.</p>
+  <a href="https://www.linkedin.com/in/dathan-batuampo-031917276/" target="_blank" class="linkedin-button">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" class="linkedin-icon">
+  Connect on LinkedIn
+</a>
+</footer>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

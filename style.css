@@ -1,0 +1,191 @@
+header, footer {
+  background-color: #6CB4EE;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+#darkmode-btn {
+  background-color:#2668a6;
+  padding:4px;
+  margin:15px;
+}
+
+#darkmode-btn:hover{
+  background-color:#365677;
+  color:#D3D3D3;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+#Art{
+width:440px;
+height:350px;
+}
+
+#Design{
+width:440px;
+height:350px;  
+}
+
+/* #10: Horizontal Scroll Event */
+#scrollContainer {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0; /* Contains the scrollable content for horizontal scrolling */
+}
+
+#scrollContent {
+    display: flex;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    white-space: nowrap;
+    scroll-behavior: smooth; /* Smooth scrolling effect */
+    padding: 10px;
+    background-color: lightgrey;
+    border: 2px #C0C0C0;
+    width: 50%; /* Content takes up 50% of the container */
+}
+
+
+/* Items inside the scrollable content */
+.content {
+    min-width: 500px;
+    height: 300px;
+    background-color: lightcoral;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 18px;
+    color: white;
+    flex-shrink: 0; /* Prevents content from shrinking inside the scrollable area */
+}
+
+
+#Abstract{
+width:590px;
+height:300px;
+}
+
+#Character{
+width:500px;
+height:300px;  
+}
+
+#Model{
+width:590px;
+height:300px;  
+}
+
+#Gif{
+width:590px;
+height:300px;  
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  width: 100%;
+  font-size: 1em;
+}
+
+button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+#formStatus {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+
+.linkedin-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 16px;
+  background-color: #0077b5;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.linkedin-button:hover {
+  background-color: #005f8d;
+}
+
+.linkedin-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
